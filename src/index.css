@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-925: oklch(0.31 0.0691 171.94);
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+/* removing arrows from number input*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
